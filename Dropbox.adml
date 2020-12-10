@@ -1,0 +1,161 @@
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+  <displayName>
+  </displayName>
+  <description>
+  </description>
+  <resources>
+    <stringTable>
+      <string id="CAT_C39A5E2A_AE06_4458_A903_A273DB6EDD4D">Dropbox</string>
+      <string id="CAT_C5F6D18A_0AE5_4DFB_97F5_49E12C6A2CE3">General</string>
+      <string id="POL_169D2302_7B44_445D_92FA_6C5EA1E00DF5">Start Dropbox on system startup</string>
+      <string id="POL_169D2302_7B44_445D_92FA_6C5EA1E00DF5_Help">If you enable this policy setting, the Dropbox desktop client will start when you start Windows.  
+
+If you disable this policy setting, the Dropbox desktop client will need to be started from the Start Menu.
+
+If you do not configure this policy setting, the Dropbox desktop client will automatically start when you start Windows.</string>
+      <string id="POL_2D3EA1AC_EA7F_464E_A8BC_39CDBA9C2DC6">Notify me about Comments, shares, or mentions</string>
+      <string id="CAT_93921E3D_3A91_4963_A9DB_24E7B864769B">Account</string>
+      <string id="CAT_46B64DAC_94DE_4F95_8D17_B37F4E0B8CD3">Import</string>
+      <string id="CAT_4FC1479E_4545_46AC_9F52_798B945E5931">Bandwidth</string>
+      <string id="CAT_266C1D38_BCE4_4483_9C33_1A80CF2B1AC7">Proxies</string>
+      <string id="POL_3FCF40C5_022A_4B58_B970_4424DBF0CFB5">Notify me about synced files</string>
+      <string id="POL_A38907EE_3A37_4FCB_8EE2_C6D365738B8E">Open folders in</string>
+      <string id="POL_8410D284_1562_4FEF_974B_8B96F5D985E9">Display Dropbox Badge</string>
+      <string id="ITM_F3242B6D_ED37_44B3_BCC9_6FB26F85467C">Always show</string>
+      <string id="ITM_0864792A_E28D_4397_B601_B066A1C488C2">If others present</string>
+      <string id="ITM_11AD9A9C_8CFC_46EF_B250_5CDA9B0AE0EA">Never show</string>
+      <string id="ITM_0BD7D4CB_65BF_4B93_B3C4_19F9BB55ED75">Always show</string>
+      <string id="ITM_B1CBDA6F_5547_4E25_BB79_FDB6282E081F">If others present</string>
+      <string id="ITM_4E6A9CCB_80E2_412B_810B_118A157ACCA6">Never show</string>
+      <string id="POL_3F45F0A5_A58B_4846_9775_29E217745544">Dropbox Personal location</string>
+      <string id="POL_46789330_6226_45A5_843B_71BACAB9DF09">Dropbox Business location</string>
+      <string id="POL_6DD125C3_8B12_4E7A_9FB1_2B3EF0260EC1">Enable camera uploads</string>
+      <string id="POL_08167A36_2B12_4561_9405_F69ADF942C4C">Share screenshots using Dropbox</string>
+      <string id="POL_6246A6E3_58BF_471E_AD15_3B7BF8BE30F9">Enable LAN sync</string>
+      <string id="POL_07D8E33D_07E4_4FFF_A68A_944FAF82EA01">Download rate</string>
+      <string id="ITM_7357DC6C_2ACC_4850_899A_15AFC893BE26">Photos and videos</string>
+      <string id="ITM_76C10D9D_2FF0_482C_ACD5_16D4DFD90B79">Photos only</string>
+      <string id="POL_18678952_7317_4D01_AAEF_7AAEE9A5B3E0">Upload rate</string>
+      <string id="ITM_63C22C86_CE51_4CB1_A722_7724AB95FC28">Don't limit</string>
+      <string id="ITM_57D10ABB_A040_4639_9870_665C0C94FC78">Limit to:  &lt;specify KB/s below&gt;</string>
+      <string id="POL_6395F048_376F_4880_B5D0_E5ABD5747C7F">Proxy settings</string>
+      <string id="ITM_5179589D_F1AB_497F_BB81_9D47C7BDF602">Don't limit</string>
+      <string id="ITM_60264E5C_3D16_49D5_A373_E283C873EFCB">Limit to:  &lt;specify KB/s below&gt;</string>
+      <string id="ITM_6A7BF7E1_9AFC_4C43_AE6D_A98D5B6C45EB">Don't limit</string>
+      <string id="ITM_C7184894_5CDA_46FE_A337_271B7B0FC83F">Limit automatically</string>
+      <string id="ITM_9FD706C5_DE30_4154_ACD5_159BC8A70BDD">Limit to:  &lt;specify KB/s below&gt;</string>
+      <string id="ITM_8727EDCF_1B72_4374_AE7D_562963995A34">No proxy</string>
+      <string id="ITM_C4F19011_0A3E_417F_9082_A633E0900D14">Auto-detect</string>
+      <string id="ITM_87BE579C_C83F_43F6_B131_743C2D412AA4">Manual</string>
+      <string id="ITM_4D988567_9034_4DCA_A29E_4D1B35FABC24">HTTP</string>
+      <string id="ITM_4D988567_9034_4DCA_A29E_4D1B35FABC25">Enabled</string>
+      <string id="ITM_2361035B_0983_417D_A52D_1C83CA8F1C58">SOCKS4</string>
+      <string id="ITM_2361035B_0983_417D_A52D_1C83CA8F1C50">Disabled</string>
+      <string id="ITM_94A6E3D7_37DC_4669_8AD0_4B09420C421A">SOCKS5</string>
+      <string id="POL_2D3EA1AC_EA7F_464E_A8BC_39CDBA9C2DC6_Help">If you enable this policy setting, users will be notified for comments, shares and mentions.
+
+If you disable this policy setting, users will not be notified for comments, shares and mentions.
+
+If you do not configure this policy setting, users will be notified for comments, shares and mentions.</string>
+      <string id="POL_3FCF40C5_022A_4B58_B970_4424DBF0CFB5_Help">If you enable this policy setting, users will be notified when files are synced.
+
+If you disable this policy setting, users will not be notified when files are synced.
+
+If you do not configure this policy setting, users will be notified when files are synced.</string>
+      <string id="POL_A38907EE_3A37_4FCB_8EE2_C6D365738B8E_Help">You can choose to open folders automatically in the Dropbox folder in Finder/File Explorer or the desktop app.</string>
+      <string id="POL_8410D284_1562_4FEF_974B_8B96F5D985E9_Help">If you enable this policy setting and set to "Always show", the Dropbox Badge will be always appear for supported applications.
+
+If you enable this policy setting and set to "If others present", the Dropbox Badge will only appear if others have the same document open for supported applications.
+
+If you enable this policy setting and set to "Never show", the Dropbox Badge will be disabled.  If you disable or do not configure this policy setting, the Dropbox Badge will be always appear for supported applications.
+
+If you do not configure this policy setting, the Dropbox Badge will be always appear for supported applications.</string>
+      <string id="POL_3F45F0A5_A58B_4846_9775_29E217745544_Help">If you enable this policy setting you can define the location of the Dropbox folder for personal accounts.  
+
+If you disable or do not configure this policy setting the default folder 
+%USERPROFILE%\Dropbox
+ will be used.</string>
+      <string id="POL_46789330_6226_45A5_843B_71BACAB9DF09_Help">If you enable this policy setting you can define the location of the Dropbox folder for business accounts.  
+
+If you disable or do not configure this policy setting the default folder 
+%USERPROFILE%\Dropbox (&lt;Team Name&gt;)
+ will be used.</string>
+      <string id="POL_6DD125C3_8B12_4E7A_9FB1_2B3EF0260EC1_Help">If you enable this policy setting you can choose if you wish to have only photos uploaded or photos and videos.</string>
+      <string id="POL_08167A36_2B12_4561_9405_F69ADF942C4C_Help">If you enable this policy setting, screenshots will be uploaded to Dropbox.
+
+If you disable this policy setting, screenshots will not be uploaded to Dropbox.
+
+If you do not configure this policy setting, screenshots will be uploaded to Dropbox.</string>
+      <string id="POL_6246A6E3_58BF_471E_AD15_3B7BF8BE30F9_Help">If you enable this policy setting, LAN sync will be enabled for the Dropbox desktop client.
+
+If you disable this policy setting, LAN sync will not be enabled for the Dropbox desktop client.
+
+If you do not configure this policy setting, LAN sync will not be enabled for the Dropbox desktop client.
+
+Please see https://www.dropbox.com/help/137 for more information regarding LAN sync.</string>
+      <string id="POL_07D8E33D_07E4_4FFF_A68A_944FAF82EA01_Help">If you enable this policy setting, you can set a download rate limit for the Dropbox desktop client.
+
+If the policy setting is not configured or is disabled, there will not be a Download rate limit for the Dropbox desktop client.</string>
+      <string id="POL_18678952_7317_4D01_AAEF_7AAEE9A5B3E0_Help">If you enable this policy setting, you can set an upload rate limit for the Dropbox desktop client or allow the Dropbox desktop client to automatically limit the upload rate based upon available bandwidth.
+
+If the policy setting is not configured or is disabled, there will not be an upload rate limit for the Dropbox desktop client.</string>
+      <string id="POL_6395F048_376F_4880_B5D0_E5ABD5747C7F_Help">If you enable this policy setting, you can configure proxy settings for the Dropbox desktop client.  You will be able to choose to disable proxy settings, allow auto-detection or manually specify a proxy server and port.
+
+If you disable or do not configure this policy setting, the Dropbox desktop client will be set to Auto-detect proxy settings.</string>
+      <string id="POL_E290F57B_78F9_4446_A49E_01E89B34DFC3">Notify me about changes to my Dropbox</string>
+      <string id="POL_E290F57B_78F9_4446_A49E_01E89B34DFC3_Help">If you enable this policy setting, users will be notified about changes to their Dropbox.
+
+If you disable this policy setting, users will not be notified for changes to their Dropbox.
+
+If you do not configure this policy setting, users will be notified about changes to their Dropbox.</string>
+    </stringTable>
+    <presentationTable>
+      <presentation id="POL_169D2302_7B44_445D_92FA_6C5EA1E00DF5" />
+      <presentation id="POL_2D3EA1AC_EA7F_464E_A8BC_39CDBA9C2DC6" />
+      <presentation id="POL_8410D284_1562_4FEF_974B_8B96F5D985E9">
+        <dropdownList refId="DST_E84EF721_953E_40B4_95C0_BAB7C5AB9FD4" defaultItem="0">Display Dropbox Badge</dropdownList>
+      </presentation>
+      <presentation id="POL_3F45F0A5_A58B_4846_9775_29E217745544">
+        <textBox refId="TXT_C3A229EA_93DD_4694_A545_83EA7ABC112D">
+          <label>Dropbox Personal Location</label>
+          <defaultValue>%USERPROFILE%\Dropbox</defaultValue>
+        </textBox>
+      </presentation>
+      <presentation id="POL_46789330_6226_45A5_843B_71BACAB9DF09">
+        <textBox refId="TXT_F4EA9D1A_D661_4DDC_8079_F78BA3C3DFEF">
+          <label>Dropbox Business location</label>
+          <defaultValue></defaultValue>
+        </textBox>
+      </presentation>
+      <presentation id="POL_6DD125C3_8B12_4E7A_9FB1_2B3EF0260EC1">
+        <dropdownList refId="DST_E1A158F8_430E_4082_BBC8_8E16BCF3C2A6" defaultItem="0">Enable camera uploads</dropdownList>
+      </presentation>
+      <presentation id="POL_07D8E33D_07E4_4FFF_A68A_944FAF82EA01">
+        <dropdownList refId="DST_DC18609A_D854_4F02_9688_9FE543D1A0F6" defaultItem="0">Download rate:</dropdownList>
+        <decimalTextBox refId="DXT_8C2D1556_DC94_4B55_9664_86260E9F809B" defaultValue="1024">Download rate KB/s:</decimalTextBox>
+      </presentation>
+      <presentation id="POL_18678952_7317_4D01_AAEF_7AAEE9A5B3E0">
+        <dropdownList refId="DST_14F8DA06_3CCE_408E_A515_0C931C917952" defaultItem="1">Upload rate:</dropdownList>
+        <decimalTextBox refId="DXT_C01890FB_26D5_4020_A605_923A4D809BE0" defaultValue="1024">Upload rate KB/s:</decimalTextBox>
+      </presentation>
+      <presentation id="POL_6395F048_376F_4880_B5D0_E5ABD5747C7F">
+        <dropdownList refId="DST_D3F75E31_FBBC_477D_A4F5_8573CB312CA0" defaultItem="0">Proxy settings:</dropdownList>
+        <dropdownList refId="DST_0B9834E0_96D6_4989_81A9_EC0AD4BBDA39" defaultItem="0">Proxy type:</dropdownList>
+        <dropdownList refId="DST_0B9834E0_96D6_4989_81A9_EC0AD4BBDA40" defaultItem="0">Proxy Server requires password:</dropdownList>
+        <textBox refId="TXT_1CD1449E_647C_42D5_8978_F33B5104D512">
+          <label>Server:</label>
+          <defaultValue></defaultValue>
+        </textBox>
+        <textBox refId="TXT_1CD1449E_647C_42D5_8978_F33B5104D520">
+          <label>Username:</label>
+          <defaultValue></defaultValue>
+        </textBox>
+        <textBox refId="TXT_1CD1449E_647C_42D5_8978_F33B5104D521">
+          <label>Password:</label>
+          <defaultValue></defaultValue>
+        </textBox>
+        <decimalTextBox refId="DXT_FD51355C_A91B_4EF0_93B5_EE91BB8DF9BE" defaultValue="8080">Port:</decimalTextBox>
+      </presentation>
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>

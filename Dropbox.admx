@@ -1,0 +1,180 @@
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces>
+    <target prefix="fullarmor" namespace="FullArmor.Policies.214C5CA3_4587_4D22_8627_4EB072B7382C" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <supersededAdm fileName="" />
+  <resources minRequiredRevision="1.0" />
+  <categories>
+    <category name="CAT_C39A5E2A_AE06_4458_A903_A273DB6EDD4D" displayName="$(string.CAT_C39A5E2A_AE06_4458_A903_A273DB6EDD4D)" />
+    <category name="CAT_C5F6D18A_0AE5_4DFB_97F5_49E12C6A2CE3" displayName="$(string.CAT_C5F6D18A_0AE5_4DFB_97F5_49E12C6A2CE3)">
+      <parentCategory ref="CAT_C39A5E2A_AE06_4458_A903_A273DB6EDD4D" />
+    </category>
+    <category name="CAT_93921E3D_3A91_4963_A9DB_24E7B864769B" displayName="$(string.CAT_93921E3D_3A91_4963_A9DB_24E7B864769B)">
+      <parentCategory ref="CAT_C39A5E2A_AE06_4458_A903_A273DB6EDD4D" />
+    </category>
+    <category name="CAT_46B64DAC_94DE_4F95_8D17_B37F4E0B8CD3" displayName="$(string.CAT_46B64DAC_94DE_4F95_8D17_B37F4E0B8CD3)">
+      <parentCategory ref="CAT_C39A5E2A_AE06_4458_A903_A273DB6EDD4D" />
+    </category>
+    <category name="CAT_4FC1479E_4545_46AC_9F52_798B945E5931" displayName="$(string.CAT_4FC1479E_4545_46AC_9F52_798B945E5931)">
+      <parentCategory ref="CAT_C39A5E2A_AE06_4458_A903_A273DB6EDD4D" />
+    </category>
+    <category name="CAT_266C1D38_BCE4_4483_9C33_1A80CF2B1AC7" displayName="$(string.CAT_266C1D38_BCE4_4483_9C33_1A80CF2B1AC7)">
+      <parentCategory ref="CAT_C39A5E2A_AE06_4458_A903_A273DB6EDD4D" />
+    </category>
+  </categories>
+  <policies>
+    <policy name="POL_169D2302_7B44_445D_92FA_6C5EA1E00DF5" class="User" displayName="$(string.POL_169D2302_7B44_445D_92FA_6C5EA1E00DF5)" explainText="$(string.POL_169D2302_7B44_445D_92FA_6C5EA1E00DF5_Help)" presentation="$(presentation.POL_169D2302_7B44_445D_92FA_6C5EA1E00DF5)" key="SOFTWARE\Policies\Dropbox\General" valueName="StartDropboxOnSystemStartup">
+      <parentCategory ref="CAT_C5F6D18A_0AE5_4DFB_97F5_49E12C6A2CE3" />
+      <supportedOn ref="windows:SUPPORTED_WindowsVista" />
+      <enabledValue>
+            <decimal value="1"/>
+      </enabledValue>
+      <disabledValue>
+            <decimal value="0"/>
+      </disabledValue>
+    </policy>
+    <policy name="POL_8410D284_1562_4FEF_974B_8B96F5D985E9" class="User" displayName="$(string.POL_8410D284_1562_4FEF_974B_8B96F5D985E9)" explainText="$(string.POL_8410D284_1562_4FEF_974B_8B96F5D985E9_Help)" presentation="$(presentation.POL_8410D284_1562_4FEF_974B_8B96F5D985E9)" key="SOFTWARE\Policies\Dropbox\General" valueName="DropboxBadge">
+      <parentCategory ref="CAT_C5F6D18A_0AE5_4DFB_97F5_49E12C6A2CE3" />
+      <supportedOn ref="windows:SUPPORTED_WindowsVista" />
+      <elements>
+        <enum id="DST_E84EF721_953E_40B4_95C0_BAB7C5AB9FD4" key="SOFTWARE\Policies\Dropbox\General" valueName="DropboxBadge" required="true">
+          <item displayName="$(string.ITM_0BD7D4CB_65BF_4B93_B3C4_19F9BB55ED75)">
+            <value>
+              <decimal value="1" />
+            </value>
+          </item>
+          <item displayName="$(string.ITM_B1CBDA6F_5547_4E25_BB79_FDB6282E081F)">
+            <value>
+              <decimal value="2" />
+            </value>
+          </item>
+          <item displayName="$(string.ITM_4E6A9CCB_80E2_412B_810B_118A157ACCA6)">
+            <value>
+              <decimal value="0" />
+            </value>
+          </item>
+        </enum>
+      </elements>
+    </policy>
+    <policy name="POL_A38907EE_3A37_4FCB_8EE2_C6D365738B8E" class="User" displayName="$(string.POL_A38907EE_3A37_4FCB_8EE2_C6D365738B8E)" explainText="$(string.POL_A38907EE_3A37_4FCB_8EE2_C6D365738B8E_Help)" key="SOFTWARE\Policies\Dropbox\General" valueName="OpenFoldersIn">
+      <parentCategory ref="CAT_C5F6D18A_0AE5_4DFB_97F5_49E12C6A2CE3" />
+      <supportedOn ref="windows:SUPPORTED_WindowsVista" />
+      <enabledValue>
+            <decimal value="1"/>
+      </enabledValue>
+      <disabledValue>
+            <decimal value="0"/>
+      </disabledValue>
+    </policy>
+    <policy name="POL_6246A6E3_58BF_471E_AD15_3B7BF8BE30F9" class="User" displayName="$(string.POL_6246A6E3_58BF_471E_AD15_3B7BF8BE30F9)" explainText="$(string.POL_6246A6E3_58BF_471E_AD15_3B7BF8BE30F9_Help)" key="SOFTWARE\Policies\Dropbox\Bandwidth" valueName="EnableLANSync">
+      <parentCategory ref="CAT_4FC1479E_4545_46AC_9F52_798B945E5931" />
+      <supportedOn ref="windows:SUPPORTED_WindowsVista" />
+      <enabledValue>
+            <decimal value="1"/>
+      </enabledValue>
+      <disabledValue>
+            <decimal value="0"/>
+      </disabledValue>
+    </policy>
+    <policy name="POL_07D8E33D_07E4_4FFF_A68A_944FAF82EA01" class="User" displayName="$(string.POL_07D8E33D_07E4_4FFF_A68A_944FAF82EA01)" explainText="$(string.POL_07D8E33D_07E4_4FFF_A68A_944FAF82EA01_Help)" presentation="$(presentation.POL_07D8E33D_07E4_4FFF_A68A_944FAF82EA01)" key="SOFTWARE\Policies\Dropbox\Bandwidth" valueName="DownloadRate">
+      <parentCategory ref="CAT_4FC1479E_4545_46AC_9F52_798B945E5931" />
+      <supportedOn ref="windows:SUPPORTED_WindowsVista" />
+      <elements>
+        <enum id="DST_DC18609A_D854_4F02_9688_9FE543D1A0F6" key="SOFTWARE\Policies\Dropbox\Bandwidth" valueName="DownloadRate" required="true">
+          <item displayName="$(string.ITM_5179589D_F1AB_497F_BB81_9D47C7BDF602)">
+            <value>
+              <decimal value="0" />
+            </value>
+          </item>
+          <item displayName="$(string.ITM_60264E5C_3D16_49D5_A373_E283C873EFCB)">
+            <value>
+              <decimal value="2" />
+            </value>
+          </item>
+        </enum>
+        <decimal id="DXT_8C2D1556_DC94_4B55_9664_86260E9F809B" key="SOFTWARE\Policies\Dropbox\Bandwidth" valueName="DownloadRateKBs" minValue="1" maxValue="999999" />
+      </elements>
+    </policy>
+    <policy name="POL_18678952_7317_4D01_AAEF_7AAEE9A5B3E0" class="User" displayName="$(string.POL_18678952_7317_4D01_AAEF_7AAEE9A5B3E0)" explainText="$(string.POL_18678952_7317_4D01_AAEF_7AAEE9A5B3E0_Help)" presentation="$(presentation.POL_18678952_7317_4D01_AAEF_7AAEE9A5B3E0)" key="SOFTWARE\Policies\Dropbox\Bandwidth" valueName="UploadRate">
+      <parentCategory ref="CAT_4FC1479E_4545_46AC_9F52_798B945E5931" />
+      <supportedOn ref="windows:SUPPORTED_WindowsVista" />
+      <elements>
+        <enum id="DST_14F8DA06_3CCE_408E_A515_0C931C917952" key="SOFTWARE\Policies\Dropbox\Bandwidth" valueName="UploadRate" required="true">
+          <item displayName="$(string.ITM_6A7BF7E1_9AFC_4C43_AE6D_A98D5B6C45EB)">
+            <value>
+              <decimal value="0" />
+            </value>
+          </item>
+          <item displayName="$(string.ITM_C7184894_5CDA_46FE_A337_271B7B0FC83F)">
+            <value>
+              <decimal value="1" />
+            </value>
+          </item>
+          <item displayName="$(string.ITM_9FD706C5_DE30_4154_ACD5_159BC8A70BDD)">
+            <value>
+              <decimal value="2" />
+            </value>
+          </item>
+        </enum>
+        <decimal id="DXT_C01890FB_26D5_4020_A605_923A4D809BE0" key="SOFTWARE\Policies\Dropbox\Bandwidth" valueName="UploadRateKBs" minValue="1" maxValue="999999" />
+      </elements>
+    </policy>
+    <policy name="POL_6395F048_376F_4880_B5D0_E5ABD5747C7F" class="User" displayName="$(string.POL_6395F048_376F_4880_B5D0_E5ABD5747C7F)" explainText="$(string.POL_6395F048_376F_4880_B5D0_E5ABD5747C7F_Help)" presentation="$(presentation.POL_6395F048_376F_4880_B5D0_E5ABD5747C7F)" key="SOFTWARE\Policies\Dropbox\Proxies" valueName="ProxyMode">
+      <parentCategory ref="CAT_266C1D38_BCE4_4483_9C33_1A80CF2B1AC7" />
+      <supportedOn ref="windows:SUPPORTED_WindowsVista" />
+      <elements>
+        <enum id="DST_D3F75E31_FBBC_477D_A4F5_8573CB312CA0" key="SOFTWARE\Policies\Dropbox\Proxies" valueName="ProxySettings" required="true">
+          <item displayName="$(string.ITM_8727EDCF_1B72_4374_AE7D_562963995A34)">
+            <value>
+              <decimal value="0" />
+            </value>
+          </item>
+          <item displayName="$(string.ITM_C4F19011_0A3E_417F_9082_A633E0900D14)">
+            <value>
+              <decimal value="1" />
+            </value>
+          </item>
+          <item displayName="$(string.ITM_87BE579C_C83F_43F6_B131_743C2D412AA4)">
+            <value>
+              <decimal value="2" />
+            </value>
+          </item>
+        </enum>
+        <text id="TXT_1CD1449E_647C_42D5_8978_F33B5104D512" key="SOFTWARE\Policies\Dropbox\Proxies" valueName="ProxyServer" />
+        <text id="TXT_1CD1449E_647C_42D5_8978_F33B5104D520" key="SOFTWARE\Policies\Dropbox\Proxies" valueName="Username" />
+        <text id="TXT_1CD1449E_647C_42D5_8978_F33B5104D521" key="SOFTWARE\Policies\Dropbox\Proxies" valueName="Password" />
+        <enum id="DST_0B9834E0_96D6_4989_81A9_EC0AD4BBDA39" key="SOFTWARE\Policies\Dropbox\Proxies" valueName="ProxyType">
+          <item displayName="$(string.ITM_4D988567_9034_4DCA_A29E_4D1B35FABC24)">
+            <value>
+              <string>HTTP</string>
+            </value>
+          </item>
+          <item displayName="$(string.ITM_2361035B_0983_417D_A52D_1C83CA8F1C58)">
+            <value>
+              <string>SOCKS4</string>
+            </value>
+          </item>
+          <item displayName="$(string.ITM_94A6E3D7_37DC_4669_8AD0_4B09420C421A)">
+            <value>
+              <string>SOCKS5</string>
+            </value>
+          </item>
+        </enum>
+        <enum id="DST_0B9834E0_96D6_4989_81A9_EC0AD4BBDA40" key="SOFTWARE\Policies\Dropbox\Proxies" valueName="ProxyServerRequiresPassword">
+          <item displayName="$(string.ITM_4D988567_9034_4DCA_A29E_4D1B35FABC25)">
+            <value>
+              <decimal value="0"/>
+            </value>
+          </item>
+          <item displayName="$(string.ITM_2361035B_0983_417D_A52D_1C83CA8F1C50)">
+            <value>
+              <decimal value="1"/>
+            </value>
+          </item>
+        </enum>
+        <decimal id="DXT_FD51355C_A91B_4EF0_93B5_EE91BB8DF9BE" key="SOFTWARE\Policies\Dropbox\Proxies" valueName="ProxyPort" minValue="1" maxValue="65536" />
+      </elements>
+    </policy>
+  </policies>
+</policyDefinitions>
