@@ -124,7 +124,7 @@
       <parentCategory ref="CAT_266C1D38_BCE4_4483_9C33_1A80CF2B1AC7" />
       <supportedOn ref="windows:SUPPORTED_WindowsVista" />
       <elements>
-        <enum id="DST_D3F75E31_FBBC_477D_A4F5_8573CB312CA0" key="SOFTWARE\Policies\Dropbox\Proxies" valueName="ProxySettings" required="true">
+        <enum id="DST_D3F75E31_FBBC_477D_A4F5_8573CB312CA0" key="SOFTWARE\Policies\Dropbox\Proxies" valueName="ProxyMode" required="true">
           <item displayName="$(string.ITM_8727EDCF_1B72_4374_AE7D_562963995A34)">
             <value>
               <decimal value="0" />
